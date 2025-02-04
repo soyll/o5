@@ -9,13 +9,13 @@
       "pages": {
         "1": {
           "markdown_file": "https://.md",
-          "_task": {
+          "task": {
             "name": "",
             "description": "",
             "tags": [],
             "initial_code": ".",
             "tests": [
-              { "input": ., "expected": . },
+              { "input": "", "expected": "" },
             ]
           }
         },
