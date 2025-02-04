@@ -9,9 +9,9 @@
       "pages": {
         "1": {
           "markdown_file": "https://.md",
-          "task": {
-            "name": ".",
-            "description": ".",
+          "_task": {
+            "name": "",
+            "description": "",
             "tags": [],
             "initial_code": ".",
             "tests": [
