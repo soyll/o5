@@ -1,1 +1,49 @@
-
+{
+  "books": {
+    "1": {
+      "title": "Python для начинающих ч.1",
+      "author": "soyll",
+      "tags": ["python", "учебник"],
+      "cover_image": false,
+      "description": "Переменные, операторы, и простые конструкции.",
+      "pages": {
+        "1": {
+          "markdown_file": "https://.md",
+          "task": {
+            "name": ".",
+            "description": ".",
+            "tags": [],
+            "initial_code": ".",
+            "tests": [
+              { "input": ., "expected": . },
+            ]
+          }
+        },
+        "2": {
+          "markdown_file": "https://.md"
+        },
+        "3": {
+          "markdown_file": "https://.md"
+        }
+      }
+    },
+    "2": {
+      "title": "Python для начинающих ч.2",
+      "author": "soyll",
+      "tags": ["python", "учебник"],
+      "cover_image": false,
+      "description": "Функции, циклы и обработка исключений.",
+      "pages": {
+        "1": {
+          "markdown_file": "https://.md"
+        },
+        "2": {
+          "markdown_file": "https://.md"
+        },
+        "3": {
+          "markdown_file": "https://.md"
+        }
+      }
+    },
+  }
+}
