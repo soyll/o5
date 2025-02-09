@@ -9,7 +9,10 @@
       "pages": {
         "1": {
           "name": "Знакомство с переменными",
-          "markdown_file": "https://.md",
+          "markdown_file": "https://raw.githubusercontent.com/soyll/o5/refs/heads/main/data/mds/1.1.md",
+        },
+        "2": {
+          "markdown_file": "https://.md"
           "task": {
             "name": "",
             "description": "",
@@ -19,9 +22,6 @@
               { "input": "", "expected": "" }
             ]
           }
-        },
-        "2": {
-          "markdown_file": "https://.md"
         },
         "3": {
           "markdown_file": "https://.md"
