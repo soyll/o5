@@ -1,55 +1,79 @@
 {
-  "books": {
-    "1": {
-      "title": "Python для начинающих ч.1",
-      "author": "soyll",
-      "tags": ["python", "учебник"],
-      "cover_image": false,
-      "description": "Переменные, операторы, и простые конструкции.",
-      "pages": {
+    "books": {
         "1": {
-          "name": "Знакомство с переменными",
-          "markdown_file": "https://raw.githubusercontent.com/soyll/o5/refs/heads/main/data/mds/1.1.md"
+            "title": "Python для начинающих ч.1",
+            "author": "soyll",
+            "tags": [
+                "python",
+                "учебник"
+            ],
+            "cover_image": false,
+            "description": "Переменные, операторы, и простые конструкции.",
+            "pages": {
+                "1": {
+                    "name": "Знакомство с переменными",
+                    "markdown_file": "https://raw.githubusercontent.com/soyll/o5/refs/heads/main/data/mds/1.1.md",
+                    "test_after_file": {
+                        "question": "Какой хобот у черного слона?",
+                        "variants": {
+                            "15см": false,
+                            "25см": true,
+                            "5cм": false
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Простые операции",
+                    "markdown_file": "https://raw.githubusercontent.com/soyll/o5/refs/heads/main/data/mds/1.2.md",
+                    "test_after_fail": {},
+                    "task": {
+                        "name": "Простые операции",
+                        "description": "Решите задачи на арифметические операции.",
+                        "tags": [
+                            "python",
+                            "операторы"
+                        ],
+                        "initial_code": "a = 2\nb = 3\n# Напишите код здесь",
+                        "tests": [
+                            {
+                                "input": [
+                                    2,
+                                    3
+                                ],
+                                "expected": 5
+                            }
+                        ]
+                    }
+                },
+                "3": {
+                    "name": "Условные конструкции",
+                    "markdown_file": "https://example.com/1.3.md"
+                }
+            }
         },
         "2": {
-          "name": "Простые операции",
-          "markdown_file": "https://example.com/1.2.md",
-          "task": {
-            "name": "Простые операции",
-            "description": "Решите задачи на арифметические операции.",
-            "tags": ["python", "операторы"],
-            "initial_code": "a = 2\nb = 3\n# Напишите код здесь",
-            "tests": [
-              { "input": [2, 3], "expected": 5 }
-            ]
-          }
-        },
-        "3": {
-          "name": "Условные конструкции",
-          "markdown_file": "https://example.com/1.3.md"
+            "title": "Python для начинающих ч.2",
+            "author": "soyll",
+            "tags": [
+                "python",
+                "учебник"
+            ],
+            "cover_image": false,
+            "description": "Функции, циклы и обработка исключений.",
+            "pages": {
+                "1": {
+                    "name": "Функции",
+                    "markdown_file": "https://example.com/2.1.md"
+                },
+                "2": {
+                    "name": "Циклы",
+                    "markdown_file": "https://example.com/2.2.md"
+                },
+                "3": {
+                    "name": "Обработка исключений",
+                    "markdown_file": "https://example.com/2.3.md"
+                }
+            }
         }
-      }
-    },
-    "2": {
-      "title": "Python для начинающих ч.2",
-      "author": "soyll",
-      "tags": ["python", "учебник"],
-      "cover_image": false,
-      "description": "Функции, циклы и обработка исключений.",
-      "pages": {
-        "1": {
-          "name": "Функции",
-          "markdown_file": "https://example.com/2.1.md"
-        },
-        "2": {
-          "name": "Циклы",
-          "markdown_file": "https://example.com/2.2.md"
-        },
-        "3": {
-          "name": "Обработка исключений",
-          "markdown_file": "https://example.com/2.3.md"
-        }
-      }
     }
-  }
 }
