@@ -25,7 +25,7 @@
                 "2": {
                     "name": "Простые операции",
                     "markdown_file": "https://raw.githubusercontent.com/soyll/o5/refs/heads/main/data/mds/1.2.md",
-                    "test_after_fail": {}
+                    "test_after_file": {}
                 },
                 "3": {
                     "name": "Условные конструкции",
